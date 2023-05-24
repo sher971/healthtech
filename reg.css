@@ -15,6 +15,7 @@ body{
     padding: 100px;
     margin:0 300px;
     box-shadow: 0 15px 20px #ABB2B9;
+    position:fixed;
 
 }
 h2{
