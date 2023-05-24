@@ -1,0 +1,181 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+body{
+    background-image:linear-gradient(rgba(0, 13, 56, 0.7),rgba(12, 2, 70, 0.7)),url(apple-3422179_640.jpg);
+    background-size: cover;
+
+    padding:0;
+    margin:0;
+}
+
+.containerss{
+    width:80%;
+    margin:0 auto;
+    overflow: hidden;
+}
+
+
+#hero{
+    min-height:400px; 
+    background-position: center;
+    background-size: cover;
+}
+
+#hero h4{
+    font-size: 75px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+
+.box{
+    width: 25%;
+    float: left;
+    text-align: center;
+    padding: 30px;
+    display: flex;
+
+    
+}
+.card {
+    background: #ffd49d;
+    border-radius: 2px;
+    display: inline-block;
+   
+    margin: 1rem;
+    position: relative;
+   
+  }
+  
+  .aboutus{
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+  }
+  .aboutcol{
+    flex-basis:48%;
+    padding: 30px 2px;
+
+  }
+
+  .aboutcol img{
+    width:75%;
+  }
+
+  .aboutcol h1{
+    padding-top: 0;
+    font-size: 25px;
+
+  }
+
+  .aboutcol p{
+    padding: 15px 0 25px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+
+
+  .herobtn{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #ff723b;
+    border: 1px solif #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor:pointer;
+   
+}
+.redbtn{
+    border:1px solid#fafafa;
+    background: transparent;
+    color: #ffffff;
+  }
+
+  .redbtn:hover{
+    color:#d40000;
+  }
+  *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Courier New', Courier, monospace;
+}
+nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5px 0;
+
+}
+.logo h1{
+    width:30px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 50px;
+    font-weight: bolder;
+    background-color: #fff;
+
+}
+.cart-icon{
+    width:30px;
+    cursor:pointer;
+}
+nav ul{
+    flex:1;
+    text-align: right;
+    padding-right: 30px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin:10px 30px;
+}
+
+
+nav ul li a{
+    color:#fff;
+    text-decoration:none;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+nav ul li a::after{
+    content:'';
+    width:0;
+    height:3px;
+    position: absolute;
+    bottom:-5px;
+    left:50%;
+    transform:translateX(-50%);
+    background: #fff;
+    transition: width 0.3s;
+}
+
+nav ul li a:hover::after
+{
+     width:50%;
+
+}
+.footer{
+  padding:30px;
+  color: #fffefe;
+  background: linear-gradient(30deg,rgb(6, 1, 85),rgb(0, 75, 0));
+ max-width: 1100px;
+
+  text-align:center;
+}
