@@ -188,7 +188,7 @@ nav ul li a:hover::after
 @media(max-width:600px)
 {
     .container{
-        min-width:280px;
+        min-width:500px;
     }
     .content{
         max-height: 380px;
@@ -197,7 +197,7 @@ nav ul li a:hover::after
     }
     .input-box{
         margin-bottom: 12px;
-        width:100%;
+        width:400%;
 
     }
     .input-box:nth-child(2n){
